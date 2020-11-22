@@ -155,15 +155,15 @@ Disk:         {4} {5}'''.format(ip_address, host, mem, mem_part, disk, disk_part
 
         settings.current_row = 0
 
-        text.black.row(chart.x_stat, 'HOST:', system.host)
-        text.black.row(chart.x_stat, 'IP:',   system.ip_address)
-        text.black.row(chart.x_stat, 'Mem:',  system.mem)
+        text.black.row(chart.x_stat, 'Host:', system.host)
+        text.black.row(chart.x_stat, 'Addr:', system.ip_address)
+        text.black.row(chart.x_stat, 'Mem :', system.mem)
         text.black.row(chart.x_stat, 'Disk:', system.disk)
 
         text.red.line(2, 31, system.mem_part, align = 'right')
         text.red.line(2, 46, system.disk_part, align = 'right')
 
-        text.black.row(chart.x_result, 'Clients:', pihole.clients)
+        text.black.row(chart.x_result, 'Clients    :', pihole.clients)
         text.black.row(chart.x_result, ads_blocked_label + ':', pihole.ads_blocked)
         text.black.row(chart.x_result, 'DNS Queries:', pihole.dns_queries)
 
