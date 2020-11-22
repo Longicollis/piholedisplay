@@ -1,6 +1,6 @@
 {
     "options": {
-        "log_level": 40,
+        "log_level": 10,
         "draw_inverted": true,
         "draw_logo": false,
         "interval_minutes": 10,
@@ -19,14 +19,6 @@
     },
     "labels_ads": [
         "Ads Blocked",
-        "Ads DENIED",
-        "Ads Wrecked",
-        "Ads YEETed",
-        "Ads? NOPE!",
-        "Banhammered",
-        "Destroyed",
-        "Dismantled",
-        "Obliterated",
-        "Times saved"
+        "Ads Wrecked"
     ]
 }
