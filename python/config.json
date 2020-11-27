@@ -2,7 +2,7 @@
     "options": {
         "log_level": 40,
         "draw_inverted": true,
-        "draw_logo": false,
+        "draw_logo": true,
         "interval_minutes": 10,
         "newline": "\n",
         "log_dir": "log"
